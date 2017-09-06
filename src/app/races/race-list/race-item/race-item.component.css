@@ -1,0 +1,6 @@
+div.card-block img {
+    max-width: 100%;
+}
+div.card-block {
+    border: 1px solid black;
+}

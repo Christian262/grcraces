@@ -1,0 +1,19 @@
+<!-- <a
+style="cursor: pointer;"
+[routerLink]="[index]"
+routerLinkActive="active"
+class="list-group-item clearfix"> -->
+<div class="card text-center" style="width: 20rem; margin-top: 10px;">
+
+    <div class="card-block" >
+        <img style="padding: 5px;" class="card-img-top" src="{{ race.imagePath}}" alt="{{race.name }}" class="img-responsive">
+        <h4 class="card-title">{{ race.name}}</h4>
+        <p class="card-text">{{ race.date }}</p>
+        <p class="card-text">{{ race.description }}</p>
+        <!-- <button (click)="onLoadRace(index)" class="btn btn-primary">Learn more!</button> -->
+        <!-- <a routerLink="/races/{{race.slug}}" style="cursor:pointer;">Learn more!</a> -->
+        <a [routerLink]="[index]">Learn more!</a>
+
+    </div>
+</div>
+<!-- </a> -->

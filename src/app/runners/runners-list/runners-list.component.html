@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-xs-10">
+        <!-- <app-runners-edit></app-runners-edit> -->
+        <hr />
+        <ul class="list-group">
+            <a class="list-group-item"
+            style="cursor: pointer"
+            *ngFor="let runner of runners">
+                {{runner.firstName}} {{runner.lastName}}
+            </a>
+        </ul>
+    </div>
+</div>
